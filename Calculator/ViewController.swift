@@ -124,7 +124,7 @@ class ViewController: UIViewController {
             resultSide = leftSide - rightSide
         case "x":
             resultSide = leftSide * rightSide
-        case "/":
+        case "÷":
             resultSide = leftSide / rightSide
         case "%":
             resultSide = leftSide.truncatingRemainder(dividingBy: rightSide)
